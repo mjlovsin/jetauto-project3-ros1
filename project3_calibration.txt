@@ -1,0 +1,55 @@
+PROJECT 3 - Movement Parameters and Calibration Notes
+
+PROGRAMMED MOVEMENT PARAMETERS
+
+1. Moving forward
+   linear.x:  0.20 m/s
+   linear.y:  0.00 m/s
+   angular.z: 0.00 rad/s
+   Duration:  6.00 s
+
+2. Moving left
+   linear.x:  0.00 m/s
+   linear.y:  0.20 m/s
+   angular.z: 0.00 rad/s
+   Duration:  6.00 s
+
+3. Rotating clockwise
+   linear.x:  0.00 m/s
+   linear.y:  0.00 m/s
+   angular.z: -1.00 rad/s
+   Duration:  1.55 s
+
+4. Moving right
+   linear.x:  0.00 m/s
+   linear.y: -0.20 m/s
+   angular.z: 0.00 rad/s
+   Duration:  6.00 s
+
+5. Rotating for arc
+   linear.x:  0.00 m/s
+   linear.y:  0.00 m/s
+   angular.z: -1.00 rad/s
+   Duration:  0.60 s
+
+6. Returning to start (combined forward motion and rotation)
+   linear.x:  0.20 m/s
+   linear.y:  0.00 m/s
+   angular.z: 0.20 rad/s
+   Duration:  6.75 s
+
+7. Turning back to normal
+   linear.x:  0.00 m/s
+   linear.y:  0.00 m/s
+   angular.z: 1.00 rad/s
+   Duration:  1.25 s
+
+ADJUSTMENTS
+	
+	Slight adjustments from Simulated model to real world, clockwise rotation dropped from 1.76 to 1.55 seconds to make it more square.
+
+OBSERVATION
+
+	Observed square movement, slight adjustments can be made to make to rotation for it to always drive in same direction each time, proff OK that it was close enough.
+
+
