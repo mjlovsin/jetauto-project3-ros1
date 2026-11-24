@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>jetauto_project3_ros1</name>
+  <version>0.0.1</version>
+  <description>JetAuto Project 3 ROS 1 motion controller</description>
+
+  <maintainer email="mjlovsin-lablans@myseneca.ca">Myles Lovsin-Lablans</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+</package>
