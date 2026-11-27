@@ -52,7 +52,7 @@ cd ~/jetauto-project3-ros1
 ```
 
 ```bash
-scp jetauto_control_ros1.py jetauto@192.168.149.1:~/
+scp scripts/jetauto_control_ros1.py jetauto@192.168.149.1:~/
 ```
 
 ## 5. Verify Controller Connection
@@ -94,7 +94,7 @@ python ~/jetauto_control_ros1.py
 **Ubuntu VM:**
 
 ```bash
-scp ~/jetauto-project3-ros1/jetauto_control_ros1.py jetauto@192.168.149.1:~/
+scp ~/jetauto-project3-ros1/scripts/jetauto_control_ros1.py jetauto@192.168.149.1:~/
 ```
 
 **JetAuto SSH Terminal:**
